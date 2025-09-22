@@ -12,6 +12,6 @@
       <input type="text" name="last_name" required><br>
         
       <input type="submit" value="Next">
-     </form>
+    </form>
   </body>
 </html>
