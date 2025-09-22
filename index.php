@@ -11,7 +11,7 @@
             <label for="last_name">Last name:</label>
             <input type="text" name="last_name" required><br>
             <input type="submit" value="Next">
-            </p>
-        </form>
-     </body>
+         </form>
+        </p>
+    </body>
 </html>
