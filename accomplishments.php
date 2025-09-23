@@ -1,6 +1,10 @@
 <?php
 session_start();
-$_SESSION['courses'] = $_POST['courses'] ?? [];
+if (isset($_POST['courses'])) {
+    $_SESSION['courses'] = $_POST['courses'];
+} else {
+    $_SESSION['courses'] = [];
+}
 ?>
 <!DOCTYPE html>
 <html>
